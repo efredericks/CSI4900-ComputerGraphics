@@ -21,6 +21,7 @@ The links below serve as easy access to the demonstration examples from the book
   - \*\* [Hello world (black box)](demos/hello-world.html) \* \*
   - \*\* [Hello world (triangle)](demos/triangle.html) \* \*
   - \*\* [Lecture Square (triangles)](demos/lecture-square.html) \* \*
+  - \*\* [Lecture Shaded Triangle)](demos/triangle-shade.html) \* \*
 
 - Chapter 2
   - [Gasket 1](Chap2/gasket1.html)

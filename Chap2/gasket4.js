@@ -6,7 +6,7 @@ var gl;
 var points = [];
 var colors = [];
 
-var NumTimesToSubdivide = 3;
+var NumTimesToSubdivide = 113;
 
 window.onload = function init()
 {

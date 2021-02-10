@@ -12,6 +12,12 @@ window.onload = function init(){
     vec2( -0.5,  0.5 ),
     vec2(  0.5,  0.5 ),
     vec2(  0.5, -0.5)
+
+    // square for TRIANGLES
+    //vec2(-0.5,-0.5),
+    //vec2(0.5, 0.5),
+    //vec2(0.5,-0.5)
+    
   ];
 
   // Configure WebGL
@@ -41,5 +47,7 @@ function render() {
 // uncomment one of these to see behavior
 //  gl.drawArrays( gl.TRIANGLE_FAN, 0, 4 );
 //  gl.drawArrays( gl.TRIANGLES, 0, 6 );
-  gl.drawArrays( gl.TRIANGLE_STRIP, 0, 4 );
+//  gl.drawArrays( gl.TRIANGLE_STRIP, 0, 4 );
+
+  gl.drawArrays(gl.LINE_STRIP, 0, 4);
 }
