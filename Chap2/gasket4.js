@@ -6,7 +6,7 @@ var gl;
 var points = [];
 var colors = [];
 
-var NumTimesToSubdivide = 113;
+var NumTimesToSubdivide = 3;
 
 window.onload = function init()
 {
@@ -29,6 +29,8 @@ window.onload = function init()
         vec3( -0.8165, -0.4714,  0.3333 ),
         vec3(  0.8165, -0.4714,  0.3333 )
     ];
+
+    //console.log(mix(vec2(0.0, 0.0), vec2(1.0, 1.0), 0.5));
 
     divideTetra( vertices[0], vertices[1], vertices[2], vertices[3],
                  NumTimesToSubdivide);

@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+#key {
+  border: 1px solid #000;
+  background: #eee;
+  padding: 10px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+window.onload = function() {
+  window.addEventListener(
+    "keydown",
+    function (e) {
+      $("#key").html("Keycode: " + e.keyCode);
+    },
+    false
+  );
+};
+</script>
+</head>
+<body>
+<h2>hey there - type any key</h2>
+<div id="key"></div>
+</body>
+</html>
