@@ -17,6 +17,7 @@ The links below serve as easy access to the demonstration examples from the book
 
 - Extra
   - \*\* [Blender Mesh Loader](demos/obj-loader.html) \*\*
+  - \*\* [Pentagon](demos/pentagon-class.html) \*\*
 - Chapter 1
   - \*\* [Hello world (black box)](demos/hello-world.html) \* \*
   - \*\* [Hello world (triangle)](demos/triangle.html) \* \*
